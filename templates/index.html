@@ -17,12 +17,12 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="Accommodates" placeholder="Experience" required="required" />
-        <input type="text" name="Bedrooms" placeholder="Test Score" required="required" />
-	<input type="text" name="Bathrooms" placeholder="Interview Score" required="required" />
-	<input type="text" name="Beds" placeholder="Interview Score" required="required" />
-	<input type="text" name="Minimum nights" placeholder="Interview Score" required="required" />
-	<input type="text" name="Maximum nights" placeholder="Interview Score" required="required" />
+    	<input type="text" name="Accommodates" placeholder="Accommodates" required="required" />
+        <input type="text" name="Bedrooms" placeholder="Bedrooms" required="required" />
+	<input type="text" name="Bathrooms" placeholder="Bathrooms" required="required" />
+	<input type="text" name="Beds" placeholder="Beds" required="required" />
+	<input type="text" name="Minimum nights" placeholder="Minimum nights" required="required" />
+	<input type="text" name="Maximum nights" placeholder="Maximum nights" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
